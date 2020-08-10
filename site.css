@@ -3,6 +3,7 @@
   padding:0;
 }
 
+@media(min-width:480px){
 .title{
   font-size:50px;
   color:white;
@@ -11,6 +12,19 @@
   left:10px;
   top:-270px;
 }
+}
+
+@media(max-width:480px){
+  .title{
+  font-size:40px;
+  color:white;
+  position:relative;
+  margin:20px;
+  
+  }
+}
+
+
 
 .headimg{
   width:100%;
@@ -32,7 +46,7 @@ ul li {
   height: 50px;
 }
 
-@media(max-width:500px;){
+@media(max-width:480px){
   ul li{
     height:80px;
   }
@@ -53,5 +67,7 @@ ul li a {
   display:block;
   float:none;
 }
+
+
 
 
