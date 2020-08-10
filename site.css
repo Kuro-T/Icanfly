@@ -32,6 +32,12 @@ ul li {
   height: 50px;
 }
 
+@media(max-width:500px;){
+  ul li{
+    height:80px;
+  }
+}
+
 ul li:hover{
   background-color:gray;
   transition:background-color.5s;
