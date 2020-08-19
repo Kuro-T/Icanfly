@@ -8,24 +8,35 @@
   <script src="sample.js"></script>
 </head>
 <body> 
+  <script>
+    function sukinahito(){
+        var name=prompt("あなたの名前は？")
+
+
+        if(name.length==2){
+          location.href="yui.html";
+        }else if(name.length==3){
+          location.href="brazil.html";
+        }else if(name.length==4){
+          location.href="aja.html";
+        }else if(name.length==5){
+          location.href="hirose.html";
+        }else{
+          location.href="aina.html"
+        }}
+  </script>
   <header>
     <img src="header.jpg" class="headimg">
     <div class="title">
       KUROSAWA
     </div> 
     <ul id="nav">
-      <li>
-        <a href="tani.html" target="_blank" rel="noopener noreferrer">
-          <script>
-            var name=prompt("あなたの名前を教えてください");
-            document.write(name);
-          </script>の好きな人は...？
-        </a>
-     </li>
+      <li><a target="_blank" rel="noopener noreferrer" onclick="sukinahito();">あなたの好きな人は…？</a></li>
       <li><a href="bio.html" target="_blank" rel="noopener noreferrer">カラスノエンドウ</a></li>
       <li><a href="https://jp.quora.com/" target="_blank" rel="noopener noreferrer">Quora</a></li>
       <li><a href="sendai.html" target="_blank" rel="noopener noreferrer">仙台</a></li>
     </ul>
   </header>
+ 
 </body>
 </html>
