@@ -1,4 +1,26 @@
-<img src="tani.jpg">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <img src="tani.jpg">
 <h1>
   谷亮子
 </h1>
+<script type="text/javascript">
+function gate(){
+    var UserInput = prompt("パスワードを入力してね:","");
+ 
+    if( UserInput == "taiga" ) {
+        location.href ="taiga.html";
+    }else{
+        location.href="null.html";
+    }
+  }
+  </script>
+  <input type="button" value="パスワードを入力" onclick="gate();">
+</body>
+</html>
